@@ -1,0 +1,219 @@
+* 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+.login_body
+{
+    background-color: rgba(0, 0, 0, 0.875);
+    background-size: cover;
+    
+}
+.login_form 
+{
+    background-color: #0828ccda;
+    position: relative;
+    left:70vh;
+    top:10vh;
+    height: 500px;
+    border-radius: 5px;
+    width: max-content;
+}
+.username_label,.username_feild,.password_label,.password_feild 
+{
+    text-align: center;
+}
+.submit
+{
+    padding-right: 20px;
+    padding-left: 20px;
+    color:whitesmoke;
+    background-color: blue;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 30px;
+}
+.login_table
+{
+    background-color: #f1f1f18a;  
+    position: relative;
+    top: 15vh; 
+    height: 300px;
+}
+.error 
+{
+    background-color: red;
+    color:white;
+    position: relative;
+    left: 100px;
+    border-radius: 5px;
+}
+.headon
+{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: large;
+    font-weight: bold;
+}
+.logout_btn
+{
+    background-color: rgba(0, 0, 255, 0.792);
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 1000px;
+}
+.home_body
+{
+    background-color: rgba(0, 0, 0, 0.875);
+    margin: 0 ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.home_container
+{
+    background-color: rgba(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    opacity: 0.3;
+    margin: 50px 350px;
+    border-radius: 5px;
+}
+.home_container form
+{
+    background-color: yellow;
+    position: relative;
+    left: 50px;
+    top:50px;
+    width:400px;
+    height:400px
+}
+.home_container form table
+{
+    background-color: blue;
+    color:white;
+    width:300px;
+    height: 300px;
+    position:relative;
+    left:50px;
+    top:50px;
+}
+.home_container form table td
+{
+    text-align: center;
+}
+.submit_btn
+{
+    background-color: grey;
+    border: none;
+    border-radius: 2px;
+    width:100px;
+    height: 30px;
+    font-weight:bold;
+    color:white;
+}
+input {
+    text-transform: none;
+}
+.details-section
+{
+    background-color: white;
+    width:95%;
+    margin:20px;
+    height:300px;
+}
+.details-section table 
+{
+    text-align: center;
+    width: 95%;
+    height:250px;
+}
+.bf a
+{
+    /* background-color: rgba(0, 0, 255, 0.866); */
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    width:100vh;
+}
+.bf 
+{
+    background-color: rgba(0, 0, 255, 0.866);
+    border:none;
+    border-radius: 2px;
+    height: 30px;
+    width:150px;
+}
+.auction-body
+{
+    background-color: rgba(0, 0, 0, 0.875);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.auction-container
+{
+    background-color: rgba(255, 255, 255, 0.715);
+    width:90%;
+    position:relative;
+    left:40px;
+    top:20px;
+    height:max-content;
+}
+.auction-body h1
+{
+    text-align: center;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.875) ;
+}
+.play-all 
+{
+    background-color: rgba(0, 0, 255, 0.838);
+    border: none;
+    width: 150px;
+    height:20px;
+    border-radius: 3px;
+    position:relative;
+    bottom:620px;
+    left:800px;
+}
+.play-all a 
+{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer
+{
+    background-color: black;
+    margin-top:auto;
+    text-align: center;
+    height:100px;
+}
+footer a
+{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+.fg
+{
+    color:white;
+    text-decoration: none;
+    /* float: left; */
+    text-align: center;
+    /* font-weight: bold; */
+}
+footer:hover a{
+    color:yellow;
+}

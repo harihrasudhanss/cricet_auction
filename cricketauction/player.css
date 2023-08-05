@@ -1,0 +1,48 @@
+.playerlist-body
+{
+    background-color: rgba(0, 0, 0, 0.875);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+ .playerlist-body table {
+     width:100vh; 
+     background-color:rgba(0, 0, 0, 0.12);
+    position:fixed;
+    left:50px;
+     top:100px;
+    color:white;
+    width:1120px; 
+    /* background-color: white; */
+}
+.playerlist-body table th{
+     text-transform: uppercase;
+    font-weight:bold;
+    position:sticky;
+    top:5px;
+     
+}
+.playerlist-body table th,td {
+   width:500px;
+    text-align: center;
+    border: 2px solid white;
+} 
+.dhome
+{
+    background-color: rgba(0, 0, 255, 0.838);
+    border: none;
+    width: 150px;
+    height:20px;
+    border-radius: 3px;
+    z-index: 1;
+    position:relative;
+    top:-20px;
+    left:800px;
+    
+}
+.dhome a 
+{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
